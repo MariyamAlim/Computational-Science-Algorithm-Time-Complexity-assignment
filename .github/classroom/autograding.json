@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Vandermonde test",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest test_vander.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "LUP test",
+      "setup": "sudo -H pip3 install pytest numpy scipy",
+      "run": "pytest test_LUPsolve.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Matrix-vector product",
+      "setup": "sudo -H pip3 install pytest numpy",
+      "run": "pytest test_tridiag.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 15
+    }
+  ]
+}
